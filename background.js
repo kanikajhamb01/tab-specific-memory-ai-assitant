@@ -1,6 +1,6 @@
 console.log("✅ background.js loaded!");
 
-const GEMINI_API_KEY = "AIzaSyBHhcsarlydg-iHEJCu2t_yB3MPD0GgWH4"; // 🔁 Replace with your actual Gemini API key
+const GEMINI_API_KEY = "your api key"; // 🔁 Replace with your actual Gemini API key
 const GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" + GEMINI_API_KEY;
 
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
